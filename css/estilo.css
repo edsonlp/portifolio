@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+#geral {
+    background-image:url(../imagens/background_gradient.gif);
+    height:100%;
+    width:100%; 
+}
+#principal {
+    background-color: #09F;
+    height: 1000px;
+    width: 980px;
+    margin: 0 auto 0 auto;  
+}
+#topo {
+    background-color: #000;
+    height: 90px;
+    width: 100%;
+}
+#logo {
+    background-color: #000;
+    float: left;
+    height: 70px;
+    width: 176px;
+    padding-top: 20px;
+}
+nav {
+    background-color: #FC0;
+    height: 40px;
+    width: 100%;
+}
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu li a {
+    background-color: #333;
+    float: left;
+    width: 245px;
+    height: 25%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    color: #3F0;
+}
+#novidades {
+    background-image: url(../imagens/newsticker_background.jpg);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 980px;
+    line-height: 35px;
+    color: #FFF;
+    margin: 0px;
+    padding: 0px;
+}
+#novidades p {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+}
+ 
+.verde {
+    color: #0F0;
+}
+#news {
+    color: #000;
+    background-color: #0CC;
+    height: 430px;
+    width: 100%;
+}
+.box_noticia {
+    background-color: #FC0;
+    float: left;
+    height: 420px;
+    width: 320px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+.box_noticia_direita {
+    background-color: #FC0;
+    float: left;
+    height: 420px;
+    width: 330px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+ 
+#banner {
+    margin: 0px;
+    padding: 0px;
+    height: 420px;
+    width: 960px;
+    background-color: #999;
+}
+ 
+#menu li a:hover {
+    background-color: #0F0;
+    color: #000;
+}
+    
+/* início - portfolio.html */
+#galeria {
+    margin: 0px;
+    padding: 0px;
+    height: 420px;
+    width: 980px;
+    background-color: #999;
+    overflow:scroll;
+}
+ 
+/* final - portfolio.html */
+ 
+.box {
+    background-color: #0CF;
+    float: left;
+    height: 315px;
+    width: 315px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+ 
+}
+ 
+.banner {width: 2px;
+         height: 300px;
+        border: 10px solid #a3cb38;
+        margin: auto;
+        margin-top: 100px;
+        margin-left: 150px;
+    background-image: url("../imagens/Pick-Your-Path-WMFG-BR.jpg");
+    background-size: 100% 100%;
+ 
+    animation: banner 5s infinite;
+    }
+ 
+    @keyframes banner{
+        0% , 30% {
+            background-image: url("../imagens/Titan-Z-WMFG-BR.jpg");
+        }
+        31% , 65% {
+            background-image: url("../imagens/WMFG_Gretzky_Quadro-BR.jpg");
+        }
+        66% , 100% {
+            background-image: url("../imagens/cb-600f-hornet-usada-3-800x533-324x160.jpg");
+        }
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10pt;
+        text-align: justify;
+        padding: 0px 10px 0px 10px;
+        text-indent: 10px;
+    }
